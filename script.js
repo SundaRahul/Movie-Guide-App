@@ -48,3 +48,4 @@ let getMovie = () => {
 
 searchBtn.addEventListener("click", getMovie);
 window.addEventListener("load", getMovie);
+window.addEventListener("keypress",getMovie);
